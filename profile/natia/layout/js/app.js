@@ -1,10 +1,8 @@
-/* Template Name: Natio - Bootstrap 5 Personal Landing Template
-   Author: Zoyothemes
-   Email: zoyothemes@gmail.com
+/* Author: Naveen Jain
+   Email: jain.naveen.jn@gmail.com
+   Email: codex.naveenj@gmail.com
    Version: 1.0.0
-   Website: https://zoyothemes.com
-   Created: March 2024
-   File Description: Main Css file of the template
+   Website: 
 */
 
 // window.addEventListener('load',   fn , false )
