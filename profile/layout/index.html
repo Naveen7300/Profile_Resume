@@ -10,7 +10,7 @@
     <title>Naveen Jain - Personal Resume & Portfolio</title>
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="shortcut icon" type="image/png" href="images/favicon-32x32.png">
 
     <!-- Main CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
@@ -22,6 +22,20 @@
     <!-- Custom styles -->
     <link href="css/style.css" rel="stylesheet" type="text/css" />
 
+    <!--Redirect Back to Home on Load-->
+    <script>
+        window.onbeforeunload = function () {
+            window.scrollTo(0, 0);
+            window.location.hash = "#home" // Ensure that on page refresh, scroll position is reset
+        };
+      
+        window.onload = function() {
+            setTimeout(function() {
+            window.scrollTo(0, 0);  // Ensures the page starts at the top after everything loads
+          }, 0);
+        };
+    </script>
+
 </head>
 
 <body>
@@ -31,10 +45,10 @@
         <div class="container">
             <a class='navbar-brand' href='/profile/layout/index.html'>
                 <span class="logo-light-mode">
-                    <img src="images/logo-dark.png" class="l-light" alt="">
-                    <img src="images/logo-light.png" class="l-dark" alt="">
+                    <img src="images/profile_logo_2_dark.png" class="l-light" alt="">
+                    <img src="images/profile_logo_2_light.png" class="l-dark" alt="">
                 </span>
-                <img src="images/logo-light.png" class="logo-dark-mode" alt="">
+                <img src="images/profile_logo_2_light.png" class="logo-dark-mode" alt="">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -54,9 +68,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#services">Services</a>
                     </li>
-                    <li class="nav-item">
+                    <!--<li class="nav-item">
                         <a class="nav-link" href="#testimonial">Testimonial</a>
-                    </li>
+                    </li>-->
                     <!--<li class="nav-item">
                         <a class="nav-link" href="#blog">Blog</a>
                     </li>-->
@@ -84,8 +98,8 @@
                         </p>
 
                         <div class="button-section">
-                            <a href="javascript:void(0)" class="btn btn-primary rounded-pill mt-5 text-capitalize me-2">Contact me</a>
-                            <a href="javascript:void(0)" class="btn btn-outline-primary text-dark rounded-pill mt-5 text-capitalize">Profile</a>
+                            <a href="#contact" class="btn btn-primary rounded-pill mt-5 text-capitalize me-2">Contact me</a>
+                            <a href="#about" class="btn btn-outline-primary text-dark rounded-pill mt-5 text-capitalize">Profile</a>
                         </div>
                     </div>
                 </div>
@@ -180,7 +194,7 @@
                                         <div class="col-lg-6 col-sm-12 col-md-6">
                                             <div class="about-tab-content">
                                                 <h4 class="title mt-4">Mobile App Development Enthusiast</h4>
-                                                <p class="para-desc text-muted mx-auto mb-0 mt-3">Hello, I'm Naveen,passionate developer with a strong foundation in databases and Android app development, eager to
+                                                <p class="para-desc text-muted mx-auto mb-0 mt-3">Hello, I'm Naveen, passionate developer with a strong foundation in databases and Android app development, eager to
                                                     contribute to the dynamic field of mobile app development. Proficient in Python, SQL, and various
                                                     frameworks, I thrive in collaborative environments and excel at managing time efficiently. Ready to bring
                                                     innovative solutions and drive impactful results.
@@ -315,85 +329,85 @@
                                 </div>
                                 <!--Education Section End-->
 
-                                <!--Skiils Section Start-->
+                                <!--Skiils Section Start -->
                                 <div class="tab-pane fade" id="pills-skills" role="tabpanel" aria-labelledby="pills-contact-skills" tabindex="0">
                                     <div class="row">
                                         <div class="col-lg-3 col-md-4">
                                             <div class="skill-area mb-30">
                                                 <div class="skill-img">
-                                                    <img src="images/logo/1.png" class="img-fluid" alt="Skill Icon">
+                                                    <img src="images/logo/flutter_logo.png" class="img-fluid" alt="Skill Icon">
                                                 </div>
-                                                <h4 class="skill-percentage">98%</h4>
-                                                <p class="skill-pare mx-auto mb-0">Wordpress</p>
+                                                <h4 class="skill-percentage">50%</h4>
+                                                <p class="skill-pare mx-auto mb-0">Flutter</p>
                                             </div>
                                         </div>
 
                                         <div class="col-lg-3 col-md-4">
                                             <div class="skill-area mb-30">
                                                 <div class="skill-img">
-                                                    <img src="images/logo/2.png" class="img-fluid" alt="Skill Icon">
+                                                    <img src="images/logo/dart_logo.png" class="img-fluid" alt="Skill Icon">
                                                 </div>
-                                                <h4 class="skill-percentage">95%</h4>
-                                                <p class="skill-pare mx-auto mb-0">Figma</p>
+                                                <h4 class="skill-percentage">65%</h4>
+                                                <p class="skill-pare mx-auto mb-0">Dart</p>
                                             </div>
                                         </div>
 
                                         <div class="col-lg-3 col-md-4">
                                             <div class="skill-area mb-30">
                                                 <div class="skill-img">
-                                                    <img src="images/logo/3.png" class="img-fluid" alt="Skill Icon">
+                                                    <img src="images/logo/html_logo.png" class="img-fluid" alt="Skill Icon">
                                                 </div>
-                                                <h4 class="skill-percentage">95%</h4>
-                                                <p class="skill-pare mx-auto mb-0">Elementor</p>
+                                                <h4 class="skill-percentage">75%</h4>
+                                                <p class="skill-pare mx-auto mb-0">HTML</p>
                                             </div>
                                         </div>
 
                                         <div class="col-lg-3 col-md-4">
                                             <div class="skill-area mb-30">
                                                 <div class="skill-img">
-                                                    <img src="images/logo/6.png" class="img-fluid" alt="Skill Icon">
+                                                    <img src="images/logo/css_logo.png" class="img-fluid" alt="Skill Icon">
                                                 </div>
-                                                <h4 class="skill-percentage">96%</h4>
-                                                <p class="skill-pare mx-auto mb-0">HTML & CSS</p>
+                                                <h4 class="skill-percentage">70%</h4>
+                                                <p class="skill-pare mx-auto mb-0">CSS</p>
                                             </div>
                                         </div>
 
                                         <div class="col-lg-3 col-md-4">
                                             <div class="skill-area mb-md-0 mb-30">
                                                 <div class="skill-img">
-                                                    <img src="images/logo/5.png" class="img-fluid" alt="Skill Icon">
+                                                    <img src="images/logo/java_logo.png" class="img-fluid" alt="Skill Icon">
                                                 </div>
-                                                <h4 class="skill-percentage">85%</h4>
-                                                <p class="skill-pare mx-auto mb-0">Javascript</p>
+                                                <h4 class="skill-percentage">60%</h4>
+                                                <p class="skill-pare mx-auto mb-0">JAVA</p>
                                             </div>
                                         </div>
 
                                         <div class="col-lg-3 col-md-4">
                                             <div class="skill-area mb-md-0 mb-30">
                                                 <div class="skill-img">
-                                                    <img src="images/logo/9.png" class="img-fluid" alt="Skill Icon">
+                                                    <img src="images/logo/sql_logo.png" class="img-fluid" alt="Skill Icon">
                                                 </div>
-                                                <h4 class="skill-percentage">79%</h4>
-                                                <p class="skill-pare mx-auto mb-0">React JS</p>
+                                                <h4 class="skill-percentage">70%</h4>
+                                                <p class="skill-pare mx-auto mb-0">SQL</p>
                                             </div>
                                         </div>
 
                                         <div class="col-lg-3 col-md-4">
                                             <div class="skill-area mb-md-0 mb-30">
                                                 <div class="skill-img">
-                                                    <img src="images/logo/7.png" class="img-fluid" alt="Skill Icon">
+                                                    <img src="images/logo/pandas_logo.png" class="img-fluid" alt="Skill Icon">
                                                 </div>
-                                                <h4 class="skill-percentage">85%</h4>
-                                                <p class="skill-pare mx-auto mb-0">Laravel</p>
+                                                <h4 class="skill-percentage">75%</h4>
+                                                <p class="skill-pare mx-auto mb-0">Pandas</p>
                                             </div>
                                         </div>
 
                                         <div class="col-lg-3 col-md-4">
                                             <div class="skill-area mb-md-0 mb-30">
                                                 <div class="skill-img">
-                                                    <img src="images/logo/8.png" class="img-fluid" alt="Skill Icon">
+                                                    <img src="images/logo/python_logo.png" class="img-fluid" alt="Skill Icon">
                                                 </div>
-                                                <h4 class="skill-percentage">87%</h4>
+                                                <h4 class="skill-percentage">80%</h4>
                                                 <p class="skill-pare mx-auto mb-0">Python</p>
                                             </div>
                                         </div>
@@ -412,8 +426,8 @@
     </section>
     <!-- End Hero -->
 
-    <!-- Start Client -->
-    <section class="project-section position-relative overflow-hidden h-100 bg-half-100">
+    <!-- Start Client  - PENGING-->
+    <section class="project-section position-relative overflow-hidden h-100 bg-half-100" id="work">
         <div class="position-relative z-1">
             <div class="container">
 
@@ -451,7 +465,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!--
+                        <!-- Achivements
                         <div class="col-lg-4 col-md-4 col-sm-4">
                             <div class="developer-counter-item justify-content-center align-content-center" data-cue="fadeIn" data-interval=".9">
                                 <div class="counter-item">
@@ -469,8 +483,7 @@
                 </div>
 
                 <div class="align-items-center justify-content-center text-center mt-4">
-                    <a href="javascript:void(0)" class="btn btn-primary rounded-pill text-capitalize">Download CV <i class="bi bi-arrow-right-short align-middle"></i></a>
-                    <!--https://drive.google.com/uc?export=download&id=17EqwKAmj2knV_XqS6VhR7lx7zxPo6xGz-->
+                    <a href="https://drive.google.com/uc?export=download&id=17EqwKAmj2knV_XqS6VhR7lx7zxPo6xGz" class="btn btn-primary rounded-pill text-capitalize">Download CV <i class="bi bi-arrow-right-short align-middle"></i></a>
                 </div>
             </div>
         </div>
@@ -482,7 +495,8 @@
     </section>
     <!-- End Client -->
 
-    <!-- Work Section -->
+    <!-- Start Work - NOT REQUIRED-->
+    <!--
     <section class="bg-half-100 work-section" id="work">
         <div class="container">
 
@@ -496,8 +510,7 @@
             </div>
 
             <div class="row align-items-center">
-                <div class="col-xxl-12">
-                    <!-- Start Col
+                <div class="col-xxl-12"> // Start Col
                     <div class="filters-group mb-5">
                         <ul class="container-filter list-inline filter-options text-center">
                             <li class="list-inline-item categories active" data-group="all">All</a>
@@ -511,8 +524,7 @@
                             <li class="list-inline-item categories" data-group="development">Development</a>
                             </li>
                         </ul>
-                    </div>
-                    End col -->
+                    </div> // End col
                 </div>
             </div>
 
@@ -529,7 +541,6 @@
                         </div>
                     </div>
                 </div>
-                <!--end col-->
 
                 <div class="col-lg-4 col-md-6 col-12 picture-item">
                     <div class="work-container position-relative d-block overflow-hidden rounded">
@@ -543,7 +554,6 @@
                         </div>
                     </div>
                 </div>
-                <!--end col-->
 
                 <div class="col-lg-4 col-md-6 col-12 picture-item">
                     <div class="work-container position-relative d-block overflow-hidden rounded">
@@ -557,7 +567,6 @@
                         </div>
                     </div>
                 </div>
-                <!--end col-->
 
                 <div class="col-lg-4 col-md-6 col-12 picture-item" data-groups=>
                     <div class="work-container position-relative d-block overflow-hidden rounded">
@@ -571,7 +580,6 @@
                         </div>
                     </div>
                 </div>
-                <!--end col-->
 
                 <div class="col-lg-4 col-md-6 col-12 picture-item">
                     <div class="work-container position-relative d-block overflow-hidden rounded">
@@ -585,7 +593,6 @@
                         </div>
                     </div>
                 </div>
-                <!--end col-->
 
                 <div class="col-lg-4 col-md-6 col-12 picture-item">
                     <div class="work-container position-relative d-block overflow-hidden rounded">
@@ -599,19 +606,16 @@
                         </div>
                     </div>
                 </div>
-                <!--end col-->
             </div>
-            <!--end row-->
 
             <div class="col-12">
                 <div class="text-center">
                     <a href="#!" class="btn btn-primary rounded-pill mt-5"> See more</a>
                 </div>
             </div>
-            <!--end col-->
         </div>
-        <!-- End container -->
-    </section>
+    </section> -->
+    <!-- End Work-->
 
     <!-- Services Section -->
     <section class="bg-half-100 services-section bg-secondary" id="services">
@@ -692,7 +696,7 @@
     </section>
 
     <!-- Testimonial Start -->
-    <section class="bg-half-100 testimonial-section" id="testimonial">
+    <!--<section class="bg-half-100 testimonial-section" id="testimonial">
         <div class="container">
 
             <div class="row align-items-center">
@@ -777,11 +781,10 @@
                 </div>
             </div>
         </div>
-        <!-- End container -->
-    </section>
+    </section>-->
     <!-- Testimonial End -->
 
-    <!-- Blog Start
+    <!-- Blog Start - NOT REQUIRED
     <section class="bg-half-100 blog-section bg-secondary" id="blog">
         <div class="container">
 
@@ -897,7 +900,8 @@
                                 </div>
                                 <div>
                                     <h4 class="contact-name mb-1">Email</h4>
-                                    <a href="mailto:jain.naveen.jn@gmail.com" class="mb-0 text-muted">jain.naveen.jn@gmail.com</a>
+                                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=jain.naveen.jn@gmail.com"
+                                        target="_blank" class="mb-0 text-muted">jain.naveen.jn@gmail.com</a>
                                 </div>
                             </div>
                             <div class="contact-type d-flex gap-0 column-gap-4 mt-5 align-items-center">
@@ -994,10 +998,11 @@
                                         </div>
                                         <div class="footer-subtitle footer-text-style">
                                             <p class="mb-10 footer-text-style">
-                                                <a href="#0" class="footer-text-style">jain.naveen.jn@gmail.com</a>
+                                                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=jain.naveen.jn@gmail.com" 
+                                                 target="_blank" class="footer-text-style">jain.naveen.jn@gmail.com</a>
                                             </p>
                                             <h5>
-                                                <a href="#">+91 7300 310 248</a>
+                                                <a href="tel:07300310248">+91 7300 310 248</a>
                                             </h5>
                                         </div>
                                     </div>
@@ -1047,7 +1052,7 @@
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="logo">
-                                <a href="#0"><img src="images/logo-light.png" class="img-fluid"></a>
+                                <a href="#home"><img src="images/profile_logo_2_light.png" class="img-fluid"></a>
                             </div>
                         </div>
                         <!--end col-->

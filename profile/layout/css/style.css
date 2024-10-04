@@ -2651,4 +2651,20 @@ small {
     font-weight: 300;
 }
 
+.l-light {
+    max-width: 150px;
+    max-height: 50px;
+}
+
+.l-dark {
+    max-width: 150px;
+    max-height: 50px;
+}
+
+.logo {
+    max-width: 125px;
+    max-height: 20px;
+    padding-bottom: 50px;
+}
+
 /*# sourceMappingURL=style.css.map */
