@@ -4,7 +4,7 @@ Welcome to my personal portfolio website! This website showcases my skills, proj
 
 ## 🖥️ Live Demo
 
-Check out the live version of my portfolio here: <a href="https://naveen7300.github.io/Profile_Resume/profile/layout/index.html" target="_blank">My Portfolio</a>
+Check out the live version of my portfolio here: <a href="https://naveen7300.github.io/Profile_Resume/profile/layout/index.html" target = "_blank">My Portfolio</a>
 
 ## 🚀 Features
 
