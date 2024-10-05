@@ -25,13 +25,14 @@ Check out the live version of my portfolio here: [Your Portfolio URL](https://yo
 ## 📂 Project Structure
 
 ```plaintext
-├── images/            # Folder containing all images, icons, and logos
-├── css/               # Folder for CSS stylesheets
-│   └── style.css      # Main stylesheet
-├── js/                # Folder for JavaScript files
-│   └── app.js         # Main JavaScript file
-├── index.html         # Homepage of the portfolio
-└── README.md          # Project documentation
+profile/
+  ├── images/            # Folder containing all images, icons, and logos
+  ├── css/               # Folder for CSS stylesheets
+  │   └── style.css      # Main stylesheet
+  ├── js/                # Folder for JavaScript files
+  │   └── app.js         # Main JavaScript file
+  ├── index.html         # Homepage of the portfolio
+  └── README.md          # Project documentation
 ```
 
 ## ⚙️ Installation & Setup
