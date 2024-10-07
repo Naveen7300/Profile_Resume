@@ -2669,7 +2669,7 @@ small {
 
 .about-me-img-fluid {
     border-radius: 15%;
-    width: 550px;
+    width: 100%;
 }
 
 .about-tab-content {
