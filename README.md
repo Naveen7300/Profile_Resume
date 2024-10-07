@@ -1,6 +1,6 @@
 # Personal Portfolio
 
-Welcome to my personal portfolio website! This website showcases my skills, projects, and professional journey in web development, UI/UX design, and other relevant areas.
+Welcome to my Personal Portfolio Webpage! This website showcases my portfolio, skills and projects
 
 ## 🖥️ Live Demo
 
@@ -20,7 +20,7 @@ Check out the live version of my portfolio here: <a href="https://naveen7300.git
 - **CSS3**: For styling and layout (including Flexbox and Grid)
 - **JavaScript**: For interactivity and dynamic elements
 - **Bootstrap**: For responsive design
-- **GitHub Pages**: For hosting the portfolio website
+- **GitHub Pages**: For hosting the portfolio webpage
 
 ## 📂 Project Structure
 
